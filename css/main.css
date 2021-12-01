@@ -1,0 +1,188 @@
+@charset'utf-8';
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.wrep{
+    width: 1900px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 250px;
+    height: 200px;
+    padding-top: 30px;
+}
+header{
+    background-color: black;
+}
+.menu{
+    width: 1900px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+}
+.menu a{
+    color: gainsboro;
+}
+.menu li:hover{
+   background-color: saddlebrown;
+}
+
+.menu li{
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding-top: 15px;
+    margin-left: 180px;
+    position: relative;
+    background-color: black;
+   
+    
+}
+.submenu{
+    float: left;
+    margin-left: -220px;
+    padding-top: 20px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    display: none;
+    
+}
+.main{
+    width: 1900px;
+    height: 1280px;
+    overflow: hidden;
+    position: relative;
+}
+.main img{
+    
+    position: absolute;
+}
+.chb{
+    margin-top: 30px;
+}
+.icon{
+    width: 1900px;
+    height: 550px;
+    float: left;
+    margin-top: 20px;
+}
+.icon1{
+    width: 475px;
+    height: 550px;
+    float: left;
+    overflow: hidden;
+    
+}
+.icon1 li:hover{
+    background-color: black;
+}
+.icon1 button:hover{
+    background-color: gainsboro;
+    color: brown;
+}
+.icon2{
+    width: 475px;
+    height: 550px;
+    float: left;
+     overflow: hidden;
+}
+.icon2 button:hover{
+    background-color: gainsboro;
+    color: brown;
+}
+.icon3{
+    width: 475px;
+    height: 550px;
+    float: left;
+    padding-top: 30px;
+     overflow: hidden;
+}
+.icon3 button:hover{
+    background-color: gainsboro;
+    color: brown;
+}
+.icon4{
+    width: 475px;
+   height: 550px;
+    float: left;
+     overflow: hidden;
+}
+.icon4 button:hover{
+    background-color: gainsboro;
+    color: brown;
+}
+.icon1 button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    
+}
+.icon2 button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.icon3 button{
+    border: none;
+    width: 200px;
+    height: 50px;
+     margin-left: 120px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.icon4 button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.foot_1{
+    width: 1900px;
+    height: 50px;
+    float: left
+        
+}
+.foot_1 li{
+    float: left;
+    margin-left: 160px;
+}
+.foot_1 a{
+    color: gainsboro;
+}
+.foot_2{
+    width: 1900px;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+footer{
+    width: 1900px;
+    height: 500px;
+    float:left;
+    padding-top: 150px;
+    background-color: black;
+    color: gainsboro
+}
